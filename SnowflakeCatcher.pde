@@ -5,7 +5,6 @@ boolean run = false;
 void setup()
 {
   //your code here
-  frameRate(45);
   size(500, 500);
   background(0);
 }
@@ -94,7 +93,7 @@ class Snowflake
   void erase()
   {
     //your code here
-    // besides erasing, also eats through barriers (by nature of erase function)
+
     fill(0);
     ellipse(myX, myY, 17, 17);
   }
